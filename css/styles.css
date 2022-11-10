@@ -103,3 +103,41 @@ img{
     padding: 5% 0 5% 0;
     width: 25%;
 }
+
+.footer{
+
+  margin-left: 12%;
+  margin-top: 700px;
+}
+
+
+.signup{
+  border: 1px solid ;
+  margin-top: 1%;
+  float: left;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.shop{
+
+  float: right;
+  margin-right: 7%;
+
+
+}
+
+.help{
+  float: right;
+  margin-right: 7%;
+
+
+}
+
+.about{
+  float: right;
+  margin-right: 19%;
+}
