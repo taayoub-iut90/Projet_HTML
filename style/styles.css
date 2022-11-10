@@ -1,0 +1,105 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: left;
+  padding: 0.5% 0px 1% 5%;
+  justify-content: baseline;
+  background-color: white;
+  color: black;
+  border-bottom: 2px solid black;
+  text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+li{
+    display: inline;
+    margin-right: 2%; 
+    margin-left: 2%;
+    font-size: 16px;
+    color: black;
+}
+
+.loupe{
+    width: 25px;
+    align-items: flex-end;
+    border:0;
+}
+
+.navbar input[type=text] {
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    width: 30%;
+    text-decoration: none;
+}
+
+.panier{
+    width: 25px;
+    align-items: flex-end;
+    padding-left: 15%;
+    border:0;
+}
+
+
+
+h1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3%;
+  font-size: 300%;
+}
+
+.para1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+  color: grey;
+  font-size: 120%;
+}
+
+button{
+  align-items: center;
+  justify-content: center;
+  padding: 1% 1%;
+  width: 200px;
+  height: 75px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  font-size: 16px;
+}
+button:hover{
+    background-color:rgb(209, 209, 209);
+    cursor:pointer;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.magazine{
+    float: left;
+    text-align:center;
+    margin:auto;
+    padding: 5% 0 5% 0;
+    width: 25%;
+}
