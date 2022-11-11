@@ -19,7 +19,7 @@ height: 8%;
 .navbar {
 display: flex;
 align-items: left;
-padding: 0.3% 0px 0.3% 5%;
+padding: 0.5% 0px 0.3% 5%;
 justify-content: baseline;
 text-decoration: none;
 }
