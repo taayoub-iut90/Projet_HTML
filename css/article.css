@@ -4,176 +4,65 @@ body {
   margin: 0;
 }
 
-.menu-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  background: #000000;
-  color: #ffffff;
-  padding: 20px;
-  z-index: 1;
-  -webkit-user-select: none;
-  user-select: none;
-  box-sizing: border-box;
+nav{
+position: absolute;
+background-color: black;
+right: 0px;
+left: 0px;
+top: 0px;
+border-bottom: 2px solid gray;
+height: 8%;
+
+
 }
 
-.menu-logo {
-  line-height: 0;
-  margin: 0 20px;
+.navbar {
+display: flex;
+align-items: left;
+padding: 0.3% 0px 0.3% 5%;
+justify-content: baseline;
+text-decoration: none;
 }
 
-.menu-logo img {
-  max-height: 40px;
-  max-width: 100px;
-  flex-shrink: 0;
-}
-
-.menu-container a {
+li a{
   text-decoration: none;
-  color: #000000;
-  transition: color 0.3s ease;
-}
-
-.menu-container a:hover {
-  color: #12aa73;
-}
-
-.menu-container input {
-  display: block;
-  width: 35px;
-  height: 25px;
-  margin: 0;
-  position: absolute;
+  color: white;
   cursor: pointer;
-  opacity: 0; 
-  z-index: 2; 
-  -webkit-touch-callout: none;
 }
 
-/* Burger menu */
-.menu-container span {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  background: #ffffff;
-  border-radius: 3px;
-  z-index: 1;
-  transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+li{
+  display: inline;
+  margin-right: 2%; 
+  margin-left: 2%;
+  font-size: 16px;
+  color: black;
 }
 
-.menu-container span:first-child {
-  transform-origin: 0% 0%;
+.loupe{
+  width: 25px;
+  align-items: flex-end;
+  border:0;
 }
 
-.menu-container span:nth-child(3) {
-  transform-origin: 0% 100%;
-}
-
-.menu-container input:checked ~ span {
-  opacity: 1;
-  transform: rotate(45deg) translate(3px,-1px);
-  background: #000000;
-}
-
-.menu-container input:checked ~ span:nth-child(4) {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-.menu-container input:checked ~ span:nth-child(3) {
-  transform: rotate(-45deg) translate(-5px,11px);
-}
-
-.menu ul {
-  list-style: none;
-}
-
-.menu li {
-  padding: 10px 0;
-  font-size: 22px;
-}
-
-@media only screen and (max-width: 767px) { 
-  .menu-container {
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
-  .menu-logo {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .menu-logo img {
-    max-height: 30px;
-  }
-
-  .menu {
-    position: absolute;
-    box-sizing: border-box;
-    width: 300px;
-    right: -300px;
-    top: 0;
-    margin: -20px;
-    padding: 75px 50px 50px;
-    background: #ffffff;
-    -webkit-font-smoothing: antialiased;
-    transform-origin: 0% 0%;
-    transform: translateX(0%);
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
-
-  .menu-container input:checked ~ .menu {
-    transform: translateX(-100%);
-  }
-}
-
-@media only screen and (min-width: 768px) { 
-  .menu-container {
-    width: 100%;
-  }
-
-  .menu-container a {
-    color: #ffffff;
-  }
-
-  .menu-container input {
-    display: none;
-  }
-
-  .menu-container span {
-    display: none;
-  }
-
-  .menu {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .menu ul {
-    display: flex;
-    padding: 0;
-  }
-
-  .menu li {
-    padding: 0 20px;
-  }
-}
-
-
-header{
+.navbar input[type=text] {
+  border-color: white 0.1px;
+  border-radius: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  width: 30%;
+  height: 2%;
+  color: aliceblue;
+  text-decoration: none;
   background-color: black;
 }
+
+.panier{
+  width: 25px;
+  align-items: flex-end;
+  padding-left: 15%;
+  border:0;
+} 
+
 
 
 .flex-container {
@@ -246,39 +135,49 @@ header{
 }
 
 .footer{
-
-    margin-left: 12%;
-    margin-top: 450px;
+  margin-left: 12%;
+  margin-top: 500px;
 }
 
 
 .signup{
-    border: 1px solid ;
-    margin-top: 1%;
-    float: left;
-
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  display: flex;
+  border: 1px solid ;
+  margin-top: 1%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .shop{
+  float: right;
+  margin-right: 7%;
 
-    float: right;
-    margin-right: 7%;
-
-
+  
 }
 
 .help{
-    float: right;
-    margin-right: 7%;
-
-
+  float: right;
+  margin-right: 7%;
+  
+  
 }
 
 .about{
-    float: right;
-    margin-right: 19%;
+  float: right;
+  margin-right: 19%;
+}
+
+.shop:hover{
+  cursor: pointer;
+}
+
+.about:hover{
+  cursor: pointer;
+}
+
+.help:hover{
+  cursor: pointer;
 }

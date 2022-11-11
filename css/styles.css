@@ -1,5 +1,10 @@
-body{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap');
+
+
+body {
+    overflow-x: hidden;
+    font-family: Sans-Serif;
+    margin: 0;
 }
 
 
@@ -105,39 +110,49 @@ img{
 }
 
 .footer{
-
-  margin-left: 12%;
-  margin-top: 700px;
+    margin-left: 12%;
+    margin-top: 600px;
 }
 
 
 .signup{
-  border: 1px solid ;
-  margin-top: 1%;
-  float: left;
-
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    display: flex;
+    border: 1px solid ;
+    margin-top: 1%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .shop{
+    float: right;
+    margin-right: 7%;
 
-  float: right;
-  margin-right: 7%;
-
-
+    
 }
 
 .help{
-  float: right;
-  margin-right: 7%;
-
-
+    float: right;
+    margin-right: 7%;
+    
+    
 }
 
 .about{
-  float: right;
-  margin-right: 19%;
+    float: right;
+    margin-right: 19%;
+}
+
+.shop:hover{
+    cursor: pointer;
+}
+
+.about:hover{
+    cursor: pointer;
+}
+
+.help:hover{
+    cursor: pointer;
 }
