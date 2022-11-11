@@ -1,6 +1,6 @@
 # Ecommerce De Parapluie
 ***
-Titre du projet : 
+Titre du projet : Ecommerce De Parapluie
 
 Etudiant 1 : [Robin](mailto:robin.cassard@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
