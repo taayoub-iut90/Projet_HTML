@@ -39,9 +39,8 @@ li{
 }
 
 .loupe{
-  width: 25px;
-  align-items: flex-end;
-  border:0;
+    align-items: flex-end;
+    border:0;
 }
 
 .navbar input[type=text] {
